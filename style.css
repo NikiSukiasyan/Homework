@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #fff;
+  height: 73px;
+}
+.background {
+  background-image: url("./images/bruxelles.jpeg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.wrapper {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper li {
+  font-size: 15px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+.wrapper li:after {
+  content: "";
+  height: 30px;
+  width: 1px;
+  margin-left: 10px;
+  background-color: rgb(0, 0, 0);
+}
+.wrapper a {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  display: flex;
+}
